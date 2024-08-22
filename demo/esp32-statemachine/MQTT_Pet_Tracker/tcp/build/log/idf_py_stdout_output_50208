@@ -1,0 +1,71 @@
+[1/5] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Pet_Tracker\tcp\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/build/mqtt_tcp.bin"
+mqtt_tcp.bin binary size 0xd5930 bytes. Smallest app partition is 0x100000 bytes. 0x2a6d0 bytes (17%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Pet_Tracker\tcp\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/build/bootloader/bootloader.bin"
+Bootloader binary size 0x55f0 bytes. 0x1a10 bytes (23%) free.
+[2/3] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.1-2 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esptool_py/esptool/esptool.py;--chip;esp32s2 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@esptool.py --chip esp32s2 -p COM5 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 mqtt_tcp.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port COM5
+Connecting......
+Chip is ESP32-S2R2 (revision v1.0)
+Features: WiFi, No Embedded Flash, Embedded PSRAM 2MB, ADC and temperature sensor calibration in BLK2 of efuse V2
+Crystal is 40MHz
+MAC: 70:04:1d:fb:37:96
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00010000 to 0x000e5fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 22000 bytes to 13487...
+Writing at 0x00001000... (100 %)
+Wrote 22000 bytes (13487 compressed) at 0x00001000 in 0.6 seconds (effective 287.0 kbit/s)...
+Hash of data verified.
+Compressed 874800 bytes to 545828...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001ddb3... (5 %)
+Writing at 0x00026da9... (8 %)
+Writing at 0x0002bc58... (11 %)
+Writing at 0x00034a53... (14 %)
+Writing at 0x0003edf4... (17 %)
+Writing at 0x000449eb... (20 %)
+Writing at 0x0004a787... (23 %)
+Writing at 0x00050482... (26 %)
+Writing at 0x0005614d... (29 %)
+Writing at 0x0005bd13... (32 %)
+Writing at 0x00061ba2... (35 %)
+Writing at 0x00068255... (38 %)
+Writing at 0x0006df2d... (41 %)
+Writing at 0x0007399b... (44 %)
+Writing at 0x00078839... (47 %)
+Writing at 0x0007da8a... (50 %)
+Writing at 0x00082a12... (52 %)
+Writing at 0x00087de5... (55 %)
+Writing at 0x0008d0cb... (58 %)
+Writing at 0x0009298c... (61 %)
+Writing at 0x0009896a... (64 %)
+Writing at 0x0009e207... (67 %)
+Writing at 0x000a3f56... (70 %)
+Writing at 0x000a9d79... (73 %)
+Writing at 0x000af5c1... (76 %)
+Writing at 0x000b51dd... (79 %)
+Writing at 0x000bae23... (82 %)
+Writing at 0x000c03a8... (85 %)
+Writing at 0x000ca32b... (88 %)
+Writing at 0x000d201a... (91 %)
+Writing at 0x000d81b4... (94 %)
+Writing at 0x000de9d8... (97 %)
+Writing at 0x000e3a0b... (100 %)
+Wrote 874800 bytes (545828 compressed) at 0x00010000 in 12.4 seconds (effective 563.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 463.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+flash_args -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/build -P C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esptool_py/run_serial_tool.cmake"

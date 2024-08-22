@@ -1,0 +1,280 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Tracker\tcp\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/bootloader/bootloader.bin"
+Bootloader binary size 0x55f0 bytes. 0x1a10 bytes (23%) free.
+[2/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/ArduCAM.cpp.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/ArduCAM.cpp.obj 
+ccache C:\Espressif\tools\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-g++.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.1\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/config -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/port/esp32s2/. -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/common_components/protocol_examples_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/efuse/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/efuse/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_mm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/analog_comparator/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/dac/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/gpio/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/i2s/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/ledc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/parlio/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/rmt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sdio_slave/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sigma_delta/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/temperature_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/uart/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/usb_serial_jtag/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/touch_sensor/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/library -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/esp_crt_bundle/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/everest/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/p256-m -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_bootloader_format/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_app_format/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/bootloader_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/bootloader_support/bootloader_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_partition/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/app_update/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/spi_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/pthread/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_timer/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/app_trace/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/nvs_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_phy/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_phy/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_netif/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/esp_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_coex/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_wifi/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_wifi/wifi_apps/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/unity/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/unity/unity/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/cmock/CMock/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/console -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/http_parser -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp-tls -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp-tls/esp-tls-crypto -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/interface -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_eth/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_gdbstub/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hid/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/tcp_transport/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_http_client/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_http_server/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_https_ota/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_psram/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_lcd/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_lcd/interface -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protobuf-c/protobuf-c -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/common -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/security -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/transports -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/crypto/srp6a -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_local_ctrl/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/espcoredump/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/espcoredump/include/port/xtensa -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wear_levelling/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/diskio -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/vfs -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/idf_test/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/idf_test/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/ieee802154/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/json/cJSON -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mqtt/esp-mqtt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/nvs_sec_provider/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/perfmon/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/spiffs/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/touch_element/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/usb/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wifi_provisioning/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fno-rtti -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ArduCAM.cpp.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\ArduCAM.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/ArduCAM.cpp.obj -c C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.h:380:1: error: stray '@' in program
+  380 | @class ArduCAM
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp: In member function 'void ArduCAM::InitCAM()':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:79:22: error: qualified-id in declaration before '(' token
+   79 | void ArduCAM::CS_HIGH()
+      |                      ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:84:21: error: qualified-id in declaration before '(' token
+   84 | void ArduCAM::CS_LOW()
+      |                     ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:89:25: error: qualified-id in declaration before '(' token
+   89 | void ArduCAM::flush_fifo(void)
+      |                         ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:94:28: error: qualified-id in declaration before '(' token
+   94 | void ArduCAM::start_capture(void)
+      |                            ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:100:30: error: qualified-id in declaration before '(' token
+  100 | void ArduCAM::clear_fifo_flag(void )
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:106:27: error: qualified-id in declaration before '(' token
+  106 | uint8_t ArduCAM::read_fifo(void)
+      |                           ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:114:26: error: qualified-id in declaration before '(' token
+  114 | uint8_t ArduCAM::read_reg(uint8_t addr)
+      |                          ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:125:24: error: qualified-id in declaration before '(' token
+  125 | void ArduCAM::write_reg(uint8_t addr, uint8_t data)
+      |                        ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:137:35: error: qualified-id in declaration before '(' token
+  137 | uint32_t ArduCAM::read_fifo_length(void)
+      |                                   ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:147:29: error: qualified-id in declaration before '(' token
+  147 | void ArduCAM::set_fifo_burst()
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:154:22: error: qualified-id in declaration before '(' token
+  154 | void ArduCAM::set_bit(uint8_t addr, uint8_t bit)
+      |                      ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:163:24: error: qualified-id in declaration before '(' token
+  163 | void ArduCAM::clear_bit(uint8_t addr, uint8_t bit)
+      |                        ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:172:25: error: qualified-id in declaration before '(' token
+  172 | uint8_t ArduCAM::get_bit(uint8_t addr, uint8_t bit)
+      |                         ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:180:27: error: qualified-id in declaration before '(' token
+  180 | uint8_t ArduCAM::bus_write(int address,int value)
+      |                           ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:190:27: error: qualified-id in declaration before '(' token
+  190 | uint8_t ArduCAM:: bus_read(int address)
+      |                           ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:201:29: error: qualified-id in declaration before '(' token
+  201 | int ArduCAM::wrSensorRegs8_8(const struct sensor_reg reglist[])
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:218:30: error: qualified-id in declaration before '(' token
+  218 | int ArduCAM::wrSensorRegs8_16(const struct sensor_reg reglist[])
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:235:30: error: qualified-id in declaration before '(' token
+  235 | int ArduCAM::wrSensorRegs16_8(const struct sensor_reg reglist[])
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:252:30: error: qualified-id in declaration before '(' token
+  252 | byte ArduCAM::wrSensorReg16_8(int regID, int regDat)
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:264:29: error: qualified-id in declaration before '(' token
+  264 | byte ArduCAM::wrSensorReg8_8(int regID, int regDat)
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:274:49: error: qualified-id in declaration before '(' token
+  274 |         void ArduCAM::OV2640_set_Special_effects(uint8_t Special_effect)
+      |                                                 ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:353:42: error: qualified-id in declaration before '(' token
+  353 |         void ArduCAM::OV2640_set_Contrast(uint8_t Contrast)
+      |                                          ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:413:44: error: qualified-id in declaration before '(' token
+  413 |         void ArduCAM::OV2640_set_Brightness(uint8_t Brightness)
+      |                                            ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:463:50: error: qualified-id in declaration before '(' token
+  463 |         void ArduCAM::OV2640_set_Color_Saturation(uint8_t Color_Saturation)
+      |                                                  ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:513:36: error: qualified-id in declaration before '(' token
+  513 | void ArduCAM::OV2640_set_Light_Mode(uint8_t Light_Mode)
+      |                                    ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:559:29: error: qualified-id in declaration before '(' token
+  559 | byte ArduCAM::rdSensorReg8_8(uint8_t regID, uint8_t* regDat)
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:567:30: error: qualified-id in declaration before '(' token
+  567 | byte ArduCAM::rdSensorReg16_8(uint16_t regID, uint8_t* regDat)
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:579:35: error: qualified-id in declaration before '(' token
+  579 | void ArduCAM::OV2640_set_JPEG_size(uint8_t size)
+      |                                   ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:619:25: error: qualified-id in declaration before '(' token
+  619 | void ArduCAM::set_format(byte fmt)
+      |                         ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:631:19: error: a function-definition is not allowed here before '{' token
+  631 | void on_uart_rx() {
+      |                   ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:640:28: error: qualified-id in declaration before '(' token
+  640 | void ArduCAM:: Arducam_init(void)
+      |                            ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:651:35: error: qualified-id in declaration before '(' token
+  651 | void ArduCAM::OV5642_set_JPEG_size(uint8_t size)
+      |                                   ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:686:36: error: qualified-id in declaration before '(' token
+  686 | void ArduCAM::OV5642_set_Light_Mode(uint8_t Light_Mode)
+      |                                    ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:761:42: error: qualified-id in declaration before '(' token
+  761 | void ArduCAM::OV5642_set_Color_Saturation(uint8_t Color_Saturation)
+      |                                          ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:826:36: error: qualified-id in declaration before '(' token
+  826 | void ArduCAM::OV5642_set_Brightness(uint8_t Brightness)
+      |                                    ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:892:34: error: qualified-id in declaration before '(' token
+  892 | void ArduCAM::OV5642_set_Contrast(uint8_t Contrast)
+      |                                  ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:965:29: error: qualified-id in declaration before '(' token
+  965 | void ArduCAM::OV5642_set_hue(uint8_t degree)
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1060:41: error: qualified-id in declaration before '(' token
+ 1060 | void ArduCAM::OV5642_set_Special_effects(uint8_t Special_effect)
+      |                                         ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1109:40: error: qualified-id in declaration before '(' token
+ 1109 | void ArduCAM::OV5642_set_Exposure_level(uint8_t level)
+      |                                        ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1207:35: error: qualified-id in declaration before '(' token
+ 1207 | void ArduCAM::OV5642_set_Sharpness(uint8_t Sharpness)
+      |                                   ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1265:37: error: qualified-id in declaration before '(' token
+ 1265 | void ArduCAM::OV5642_set_Mirror_Flip(uint8_t Mirror_Flip)
+      |                                     ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1313:42: error: qualified-id in declaration before '(' token
+ 1313 | void ArduCAM::OV5642_set_Compress_quality(uint8_t quality)
+      |                                          ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1332:34: error: qualified-id in declaration before '(' token
+ 1332 | void ArduCAM::OV5642_Test_Pattern(uint8_t Pattern)
+      |                                  ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1357:29: error: qualified-id in declaration before '(' token
+ 1357 | void ArduCAM::configure_GPIO()
+      |                             ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1367:30: error: qualified-id in declaration before '(' token
+ 1367 | void ArduCAM::i2c_master_init() {
+      |                              ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1380:23: error: qualified-id in declaration before '(' token
+ 1380 | void ArduCAM::init_spi() {
+      |                       ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1402:38: error: qualified-id in declaration before '(' token
+ 1402 | esp_err_t ArduCAM::spi_write_blocking(spi_device_handle_t spi, const uint8_t *src, size_t len) {
+      |                                      ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1414:37: error: qualified-id in declaration before '(' token
+ 1414 | esp_err_t ArduCAM::spi_read_blocking(spi_device_handle_t spi, uint8_t repeated_tx_data, uint8_t *dst, size_t len) {
+      |                                     ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1426:38: error: qualified-id in declaration before '(' token
+ 1426 | esp_err_t ArduCAM::i2c_write_blocking(i2c_port_t i2c_num, uint8_t addr, const uint8_t *src, size_t len, bool nostop) {
+      |                                      ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1447:37: error: qualified-id in declaration before '(' token
+ 1447 | esp_err_t ArduCAM::i2c_read_blocking(i2c_port_t i2c_num, uint8_t addr, uint8_t *dst, size_t len, bool nostop) {
+      |                                     ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1468:2: error: expected '}' at end of input
+ 1468 | }
+      |  ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:37:1: note: to match this '{'
+   37 | {
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:628:15: warning: unused variable 'usart_symbol' [-Wunused-variable]
+  628 | unsigned char usart_symbol=0;
+      |               ^~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:629:15: warning: unused variable 'usart_Command' [-Wunused-variable]
+  629 | unsigned char usart_Command = 0;
+      |               ^~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:41:24: warning: statement will never be executed [-Wswitch-unreachable]
+   41 |         wrSensorReg16_8(0x3008, 0x80);
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj 
+ccache C:\Espressif\tools\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.1\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/config -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/port/esp32s2/. -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/examples/common_components/protocol_examples_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/efuse/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/efuse/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_mm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/analog_comparator/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/dac/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/gpio/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/i2s/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/ledc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/parlio/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/rmt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sdio_slave/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/sigma_delta/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/temperature_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/uart/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/usb_serial_jtag/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/touch_sensor/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/library -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/esp_crt_bundle/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/everest/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/p256-m -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_bootloader_format/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_app_format/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/bootloader_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/bootloader_support/bootloader_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_partition/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/app_update/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/spi_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/pthread/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_timer/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/app_trace/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/nvs_flash/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_phy/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_phy/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_netif/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wpa_supplicant/esp_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_coex/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_wifi/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_wifi/wifi_apps/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/unity/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/unity/unity/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/cmock/CMock/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/console -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/http_parser -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp-tls -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp-tls/esp-tls-crypto -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/interface -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_eth/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_gdbstub/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hid/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/tcp_transport/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_http_client/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_http_server/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_https_ota/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_psram/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_lcd/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_lcd/interface -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protobuf-c/protobuf-c -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/common -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/security -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/transports -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/protocomm/include/crypto/srp6a -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_local_ctrl/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/espcoredump/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/espcoredump/include/port/xtensa -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wear_levelling/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/diskio -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/src -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/fatfs/vfs -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/idf_test/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/idf_test/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/ieee802154/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/json/cJSON -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/mqtt/esp-mqtt/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/nvs_sec_provider/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/perfmon/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/spiffs/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/touch_element/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/usb/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/wifi_provisioning/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\app_main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -c C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:19:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:6:25: error: array type has incomplete element type 'struct sensor_reg'
+    6 | const struct sensor_reg ov5642_RAW[]  =
+      |                         ^~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:136:25: error: array type has incomplete element type 'struct sensor_reg'
+  136 | const struct sensor_reg OV5642_1280x960_RAW[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:413:25: error: array type has incomplete element type 'struct sensor_reg'
+  413 | const struct sensor_reg OV5642_1920x1080_RAW[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:423:25: error: array type has incomplete element type 'struct sensor_reg'
+  423 | const struct sensor_reg OV5642_640x480_RAW[]  =
+      |                         ^~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:469:25: error: array type has incomplete element type 'struct sensor_reg'
+  469 | const struct sensor_reg ov5642_320x240[]  =
+      |                         ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:500:25: error: array type has incomplete element type 'struct sensor_reg'
+  500 | const struct sensor_reg ov5642_640x480[]  =
+      |                         ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:531:25: error: array type has incomplete element type 'struct sensor_reg'
+  531 | const struct sensor_reg ov5642_1280x960[]  =
+      |                         ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:561:25: error: array type has incomplete element type 'struct sensor_reg'
+  561 | const struct sensor_reg ov5642_1600x1200[]  =
+      |                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:591:25: error: array type has incomplete element type 'struct sensor_reg'
+  591 | const struct sensor_reg ov5642_1024x768[]  =
+      |                         ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:624:25: error: array type has incomplete element type 'struct sensor_reg'
+  624 | const struct sensor_reg ov5642_2048x1536[]  =
+      |                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:688:25: error: array type has incomplete element type 'struct sensor_reg'
+  688 | const struct sensor_reg ov5642_2592x1944[]  =
+      |                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:718:25: error: array type has incomplete element type 'struct sensor_reg'
+  718 | const struct sensor_reg ov5642_dvp_zoom8[] =
+      |                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:759:25: error: array type has incomplete element type 'struct sensor_reg'
+  759 | const struct sensor_reg OV5642_QVGA_Preview[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:1357:25: error: array type has incomplete element type 'struct sensor_reg'
+ 1357 | const struct sensor_reg OV5642_JPEG_Capture_QSXGA[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:1442:25: error: array type has incomplete element type 'struct sensor_reg'
+ 1442 | const struct sensor_reg OV5642_1080P_Video_setting[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ov5642_regs.h:1995:25: error: array type has incomplete element type 'struct sensor_reg'
+ 1995 | const struct sensor_reg OV5642_720P_Video_setting[]  =
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:23:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.h:380:1: error: stray '@' in program
+  380 | @class ArduCAM
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.h:380:2: error: unknown type name 'class'
+  380 | @class ArduCAM
+      |  ^~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.h:381:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  381 | {
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c: In function 'app_main':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:451:5: error: unknown type name 'ArduCAM'; did you mean 'ARDUCAM_H'?
+  451 |     ArduCAM myCAM(OV5642, CS);
+      |     ^~~~~~~
+      |     ARDUCAM_H
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.h:24:25: error: expected declaration specifiers or '...' before numeric constant
+   24 | #define OV5642          3
+      |                         ^
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:451:19: note: in expansion of macro 'OV5642'
+  451 |     ArduCAM myCAM(OV5642, CS);
+      |                   ^~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:451:27: error: expected declaration specifiers or '...' before 'CS'
+  451 |     ArduCAM myCAM(OV5642, CS);
+      |                           ^~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:452:29: error: unknown type name 'ArduCAM'; did you mean 'ARDUCAM_H'?
+  452 |     uint8_t read_fifo_burst(ArduCAM myCAM);
+      |                             ^~~~~~~
+      |                             ARDUCAM_H
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:458:5: error: 'myCAM' undeclared (first use in this function)
+  458 |     myCAM.Arducam_init();
+      |     ^~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:458:5: note: each undeclared identifier is reported only once for each function it appears in
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:459:24: error: 'CS_PIN' undeclared (first use in this function); did you mean 'ESP_PING'?
+  459 |     gpio_set_direction(CS_PIN, GPIO_MODE_OUTPUT);
+      |                        ^~~~~~
+      |                        ESP_PING
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:450:13: warning: unused variable 'start_capture' [-Wunused-variable]
+  450 |     uint8_t start_capture = 0;
+      |             ^~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:449:9: warning: unused variable 'mode' [-Wunused-variable]
+  449 |     int mode = 0;
+      |         ^~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:448:10: warning: unused variable 'is_header' [-Wunused-variable]
+  448 |     bool is_header = false;
+      |          ^~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:447:19: warning: unused variable 'CS' [-Wunused-variable]
+  447 |     const uint8_t CS = 10;
+      |                   ^~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.c:437:13: warning: unused variable 'bmp_header' [-Wunused-variable]
+  437 |     uint8_t bmp_header[BMPIMAGEOFFSET] =
+      |             ^~~~~~~~~~
+ninja: build stopped: subcommand failed.

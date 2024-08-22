@@ -1,0 +1,112 @@
+[1/165] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Tracker\tcp\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/bootloader/bootloader.bin"
+Bootloader binary size 0x55f0 bytes. 0x1a10 bytes (23%) free.
+[2/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+[3/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+[4/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+[5/163] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/default_event_loop.c.obj
+[6/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+[7/163] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
+FAILED: esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj 
+ccache C:\Espressif\tools\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/config -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/private_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/port/esp32s2/. -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_timer/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj -MF esp-idf\esp_event\CMakeFiles\__idf_esp_event.dir\esp_event_private.c.obj.d -o esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj -c C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event_private.c
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event.h:17,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/private_include/esp_event_private.h:19,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event_private.c:15:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event_private.c: In function 'esp_event_is_handler_registered':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event_private.c:33:64: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+   33 |             if(event_base == ESP_EVENT_ANY_BASE && event_id == ESP_EVENT_ANY_ID && handler->handler_ctx->handler == event_handler)
+      |                                                                ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: note: each undeclared identifier is reported only once for each function it appears in
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event_private.c:33:64: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+   33 |             if(event_base == ESP_EVENT_ANY_BASE && event_id == ESP_EVENT_ANY_ID && handler->handler_ctx->handler == event_handler)
+      |                                                                ^~~~~~~~~~~~~~~~
+[8/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
+[9/163] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
+FAILED: esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj 
+ccache C:\Espressif\tools\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.2.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/config -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/private_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/include/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_hw_support/port/esp32s2/. -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/soc/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/include/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_rom/esp32s2 -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/esp32s2/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_timer/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.2.1-2=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj -MF esp-idf\esp_event\CMakeFiles\__idf_esp_event.dir\esp_event.c.obj.d -o esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj -c C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event.h:17,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:14:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'base_node_add_handler':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:220:15: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  220 |     if (id == ESP_EVENT_ANY_ID) {
+      |               ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: note: each undeclared identifier is reported only once for each function it appears in
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:220:15: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  220 |     if (id == ESP_EVENT_ANY_ID) {
+      |               ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'loop_node_add_handler':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:275:45: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  275 |     if (base == esp_event_any_base && id == ESP_EVENT_ANY_ID) {
+      |                                             ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'base_node_remove_handler':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:353:15: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  353 |     if (id == ESP_EVENT_ANY_ID) {
+      |               ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'loop_node_remove_handler':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:378:45: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  378 |     if (base == esp_event_any_base && id == ESP_EVENT_ANY_ID) {
+      |                                             ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'esp_event_handler_register_with_internal':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:702:57: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  702 |     if (event_base == ESP_EVENT_ANY_BASE && event_id != ESP_EVENT_ANY_ID) {
+      |                                                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'esp_event_handler_unregister_with_internal':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:779:57: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  779 |     if (event_base == ESP_EVENT_ANY_BASE && event_id != ESP_EVENT_ANY_ID) {
+      |                                                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'esp_event_post_to':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:832:57: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  832 |     if (event_base == ESP_EVENT_ANY_BASE || event_id == ESP_EVENT_ANY_ID) {
+      |                                                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'esp_event_isr_post_to':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/include/esp_event_base.h:30:33: error: 'esp_mqtt_event_id_t' undeclared (first use in this function)
+   30 | #define ESP_EVENT_ANY_ID       (esp_mqtt_event_id_t)-1               /**< register handler for any event id */
+      |                                 ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:909:57: note: in expansion of macro 'ESP_EVENT_ANY_ID'
+  909 |     if (event_base == ESP_EVENT_ANY_BASE || event_id == ESP_EVENT_ANY_ID) {
+      |                                                         ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c: In function 'loop_node_add_handler':
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_event/esp_event.c:323:1: error: control reaches end of non-void function [-Werror=return-type]
+  323 | }
+      | ^
+cc1.exe: some warnings being treated as errors
+[10/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
+[11/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
+[12/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
+[13/163] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+[14/163] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+[15/163] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+[16/163] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[17/163] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[18/163] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[19/163] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[20/163] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+ninja: build stopped: subcommand failed.

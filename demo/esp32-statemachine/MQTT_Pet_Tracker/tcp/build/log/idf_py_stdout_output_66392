@@ -1,0 +1,168 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (23) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Apr 23 2024 08:26:08[0m
+[0;32mI (24) boot: chip revision: v1.0[0m
+[0;32mI (27) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (37) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=28298h (164504) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=000382c0 vaddr=3ffc8a30 size=03644h ( 13892) load[0m
+[0;32mI (129) esp_image: segment 2: paddr=0003b90c vaddr=40024000 size=0470ch ( 18188) load[0m
+[0;32mI (136) esp_image: segment 3: paddr=00040020 vaddr=40080020 size=95588h (611720) map[0m
+[0;32mI (262) esp_image: segment 4: paddr=000d55b0 vaddr=4002870c size=10318h ( 66328) load[0m
+[0;32mI (289) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (289) boot: Disabling RNG early entropy source...[0m
+[0;32mI (300) cpu_start: Unicore app[0m
+[0;32mI (300) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (303) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (329) cpu_start: Pro cpu start user code[0m
+[0;32mI (329) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (329) cpu_start: Application information:[0m
+[0;32mI (332) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (337) cpu_start: App version:      v5.2.1[0m
+[0;32mI (342) cpu_start: Compile time:     Apr 23 2024 08:45:12[0m
+[0;32mI (348) cpu_start: ELF file SHA256:  be5570c02...[0m
+[0;32mI (354) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (358) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (363) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (368) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (373) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (380) heap_init: At 3FFD0850 len 0002B7B0 (173 KiB): RAM[0m
+[0;32mI (386) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (392) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (399) spi_flash: detected chip: generic[0m
+[0;32mI (403) spi_flash: flash io: dio[0m
+[0;33mW (407) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (421) main_task: Started on CPU0[0m
+[0;32mI (421) main_task: Calling app_main()[0m
+[0;32mI (421) mqtt_example: [APP] Startup..[0m
+[0;32mI (431) mqtt_example: [APP] Free memory: 186208 bytes[0m
+[0;32mI (431) mqtt_example: [APP] IDF version: v5.2.1[0m
+[0;32mI (451) example_connect: Start example_connect.[0m
+I (461) wifi:wifi driver task: 3ffd8ba0, prio:23, stack:6656, core=0
+I (461) wifi:wifi firmware version: a9f5b59
+I (461) wifi:wifi certification version: v7.0
+I (461) wifi:config NVS flash: enabled
+I (471) wifi:config nano formating: disabled
+I (471) wifi:Init data frame dynamic rx buffer num: 32
+I (471) wifi:Init static rx mgmt buffer num: 5
+I (481) wifi:Init management short buffer num: 32
+I (481) wifi:Init dynamic tx buffer num: 32
+I (491) wifi:Init static rx buffer size: 1600
+I (491) wifi:Init static rx buffer num: 10
+I (491) wifi:Init dynamic rx buffer num: 32
+[0;32mI (501) wifi_init: rx ba win: 6[0m
+[0;32mI (501) wifi_init: tcpip mbox: 32[0m
+[0;32mI (511) wifi_init: udp mbox: 6[0m
+[0;32mI (511) wifi_init: tcp mbox: 6[0m
+[0;32mI (511) wifi_init: tcp tx win: 5760[0m
+[0;32mI (521) wifi_init: tcp rx win: 5760[0m
+[0;32mI (521) wifi_init: tcp mss: 1440[0m
+[0;32mI (531) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (531) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (541) phy_init: phy_version 2401,2a6dc26,Sep 26 2023,11:22:15[0m
+I (581) wifi:mode : sta (70:04:1d:fb:37:96)
+I (581) wifi:enable tsf
+[0;32mI (581) example_connect: Connecting to TAMU_IoT...[0m
+[0;32mI (591) example_connect: Waiting for IP(s)[0m
+I (3001) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (3001) wifi:state: init -> auth (b0)
+I (3011) wifi:state: auth -> assoc (0)
+I (3021) wifi:state: assoc -> run (10)
+I (3021) wifi:connected with TAMU_IoT, aid = 1, channel 11, BW20, bssid = 54:d7:e3:ab:f5:d2
+I (3021) wifi:security: Open Auth, phy: bgn, rssi: -89
+I (3021) wifi:pm start, type: 1
+
+I (3031) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3111) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (4451) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:7204:1dff:fefb:3796, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+I (6541) wifi:<ba-add>idx:0 (ifx:0, 54:d7:e3:ab:f5:d2), tid:0, ssn:0, winSize:64
+I (6551) wifi:<ba-add>idx:1 (ifx:0, 54:d7:e3:ab:f5:d2), tid:6, ssn:0, winSize:64
+[0;32mI (7531) esp_netif_handlers: example_netif_sta ip: 10.224.226.124, mask: 255.255.0.0, gw: 10.224.0.1[0m
+[0;32mI (7531) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 10.224.226.124[0m
+[0;32mI (7541) example_common: Connected to example_netif_sta[0m
+[0;32mI (7541) example_common: - IPv4 address: 10.224.226.124,[0m
+[0;32mI (7551) example_common: - IPv6 address: fe80:0000:0000:0000:7204:1dff:fefb:3796, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (7561) mqtt_example: Other event id:7[0m
+[0;32mI (7571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;32mI (10701) mqtt_example: MQTT_EVENT_CONNECTED[0m
+[0;32mI (10711) mqtt_example: sent publish successful, msg_id=63771[0m
+[0;32mI (10711) mqtt_example: sent subscribe successful, msg_id=3643[0m
+[0;32mI (10711) mqtt_example: sent subscribe successful, msg_id=2550[0m
+[0;32mI (10721) mqtt_example: sent unsubscribe successful, msg_id=14224[0m
+[0;32mI (10731) mqtt_example: sent subscribe successful, msg_id=38113[0m
+[0;32mI (10731) mqtt_example: Published safe state, msg_id=56139[0m
+[0;32mI (10741) mqtt_example: sent subscribe successful, msg_id=57080[0m
+[0;32mI (10741) mqtt_example: Published camera_on - off, msg_id=11239[0m
+[0;32mI (10751) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=63771[0m
+[0;32mI (10761) mqtt_example: MQTT_EVENT_SUBSCRIBED, msg_id=3643[0m
+[0;32mI (10761) mqtt_example: sent publish successful, msg_id=0[0m
+[0;33mW (10771) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (10781) mqtt_example: MQTT_EVENT_SUBSCRIBED, msg_id=2550[0m
+[0;32mI (10781) mqtt_example: sent publish successful, msg_id=0[0m
+[0;32mI (10791) mqtt_example: MQTT_EVENT_UNSUBSCRIBED, msg_id=14224[0m
+[0;32mI (10801) mqtt_example: MQTT_EVENT_SUBSCRIBED, msg_id=38113[0m
+[0;32mI (10801) mqtt_example: sent publish successful, msg_id=0[0m
+[0;32mI (10811) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=56139[0m
+[0;32mI (10821) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/state
+DATA=safe
+[0;32mI (10821) mqtt_example: System state changed to SAFE[0m
+[0;32mI (10831) mqtt_example: MQTT_EVENT_SUBSCRIBED, msg_id=57080[0m
+[0;32mI (10831) mqtt_example: sent publish successful, msg_id=0[0m
+[0;32mI (10841) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/camera_on
+DATA=0
+Camera off
+[0;32mI (10851) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=11239[0m
+[0;32mI (11001) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=20642[0m
+[0;32mI (11011) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/qos0
+DATA=data
+[0;32mI (11011) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/qos0
+DATA=data
+[0;32mI (11021) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/qos0
+DATA=data
+[0;32mI (11021) mqtt_example: MQTT_EVENT_DATA[0m
+TOPIC=/topic/qos0
+DATA=data
+[0;32mI (17571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (25781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (25791) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=4588[0m
+[0;32mI (27571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;32mI (37571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (40781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (42031) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=42126[0m
+[0;32mI (47571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (55781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (55791) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=44859[0m
+[0;32mI (57571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;32mI (67571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (70781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (70791) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=32352[0m
+[0;32mI (77571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (85781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (85791) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=45742[0m
+[0;32mI (87571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;32mI (97571) mqtt_example: System is in safe state... going to sleep.[0m
+[0;33mW (100781) mqtt_example: Published location data: 30.6187 N, 96.3365 W[0m
+[0;32mI (100791) mqtt_example: MQTT_EVENT_PUBLISHED, msg_id=41861[0m
+[0;32mI (107571) mqtt_example: System is in safe state... going to sleep.[0m

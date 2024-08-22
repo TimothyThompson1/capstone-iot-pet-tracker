@@ -1,0 +1,29 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400886c5: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:432 (discriminator 1)
+[0m
+[0;33m0x4002dda7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025572: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002ddb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x400363b1: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002dda7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400886c5: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:432 (discriminator 1)
+0x4011901b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002ebc9: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002555a: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.2.1-2\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt

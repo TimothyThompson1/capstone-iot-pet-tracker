@@ -1,0 +1,150 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x40026fdc: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:790
+[0m
+[0;33m0x40026658: _xt_handle_exc at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/xtensa/xtensa_vectors.S:739
+[0m
+[0;33m0x40026fd9: check_trans_valid at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:789
+0x4008aae8: spi_device_queue_trans at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:938
+0x4008ac08: spi_device_transmit at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/gpspi/spi_master.c:1017
+0x40086a5a: ArduCAM::spi_write_blocking(spi_device_t*, unsigned char const*, unsigned int) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:1412
+0x40086a88: ArduCAM::write_reg(unsigned char, unsigned char) at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/ArduCAM.cpp:127
+0x400868aa: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/main/app_main.cpp:464
+0x40099968: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002b53d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40025386: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.2.1-2\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt

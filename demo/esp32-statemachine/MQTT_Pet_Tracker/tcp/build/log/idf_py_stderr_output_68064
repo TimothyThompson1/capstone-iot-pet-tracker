@@ -1,0 +1,89 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0;33m0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+[0m
+[0;33m0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x40025476: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x4002cbfd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4003505d: abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/abort.c:38
+0x4002cbf3: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/esp_err.c:50
+0x400887ab: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:270 (discriminator 1)
+0x4011712b: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x4002d9d5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4002545e: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/soc/esp32s2/system_internal.c:118
+[0m
+[0m

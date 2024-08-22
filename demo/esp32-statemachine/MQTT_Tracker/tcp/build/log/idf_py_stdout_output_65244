@@ -1,0 +1,787 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (23) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (24) boot: chip revision: v1.0[0m
+[0;32mI (27) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (37) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (105) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (106) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (133) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (134) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (161) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (161) boot: Disabling RNG early entropy source...[0m
+[0;32mI (172) cpu_start: Unicore app[0m
+[0;32mI (173) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (173) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (199) cpu_start: Pro cpu start user code[0m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (199) cpu_start: Application information:[0m
+[0;32mI (202) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (207) cpu_start: App version:      v5.2.1[0m
+[0;32mI (212) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (218) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (228) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (233) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (238) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (256) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (262) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (269) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_flash: flash io: dio[0m
+[0;33mW (277) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (290) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (301) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (259) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (287) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40026fdc  PS      : 0x00060330  A0      : 0x8008aaeb  A1      : 0x3ffc7b10  
+A2      : 0x00000001  A3      : 0x3ffc7ba0  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x3ffc8aa0  A7      : 0x00000068  A8      : 0x0000008a  A9      : 0x0000003a  
+A10     : 0x00000000  A11     : 0xffc00000  A12     : 0x00000014  A13     : 0x8003ffff  
+A14     : 0x00000001  A15     : 0x3ffc8aec  SAR     : 0x00000016  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000061  LBEG    : 0x00000014  LEND    : 0x8003ffff  LCOUNT  : 0x40026658  
+
+
+Backtrace: 0x40026fd9:0x3ffc7b10 0x4008aae8:0x3ffc7b40 0x4008ac08:0x3ffc7b70 0x40086a5a:0x3ffc7ba0 0x40086a88:0x3ffc7bf0 0x400868a6:0x3ffc7c20 0x40099968:0x3ffc7ca0 0x4002b53d:0x3ffc7cd0
+
+
+
+
+ELF file SHA256: 66cc48923
+
+Rebooting...
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40025386
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3210
+entry 0x4004b1cc
+[0;32mI (26) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time Apr 22 2024 14:06:11[0m
+[0;32mI (26) boot: chip revision: v1.0[0m
+[0;32mI (30) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (87) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=0e864h ( 59492) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001e88c vaddr=3ffc2b10 size=0178ch (  6028) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=40080020 size=1a184h (106884) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003a1ac vaddr=3ffc429c size=00434h (  1076) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a5e8 vaddr=40024000 size=0eb04h ( 60164) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (164) boot: Disabling RNG early entropy source...[0m
+[0;32mI (175) cpu_start: Unicore app[0m
+[0;32mI (175) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (175) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (204) cpu_start: App version:      v5.2.1[0m
+[0;32mI (209) cpu_start: Compile time:     Apr 23 2024 03:35:24[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  66cc48923...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFC5000 len 00037000 (220 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m

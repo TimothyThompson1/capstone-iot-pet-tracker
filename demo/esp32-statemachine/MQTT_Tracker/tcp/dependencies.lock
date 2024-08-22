@@ -1,0 +1,15 @@
+dependencies:
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+  protocol_examples_common:
+    component_hash: null
+    source:
+      path: C:\Espressif\frameworks\esp-idf-v5.2.1-2\examples\common_components\protocol_examples_common
+      type: local
+    version: '*'
+manifest_hash: ffc32edc59bd4f13001ae0a68567d4bf91aa231d4c567edaad5571f6043f9973
+target: esp32s2
+version: 1.0.0

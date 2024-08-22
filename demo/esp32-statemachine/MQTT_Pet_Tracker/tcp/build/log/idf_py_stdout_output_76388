@@ -1,0 +1,14 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Pet_Tracker\tcp\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/build/bootloader/bootloader.bin"
+Bootloader binary size 0x55f0 bytes. 0x1a10 bytes (23%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:40: warning: "HSPI_HOST" redefined
+   40 | #  define HSPI_HOST       SPI2_HOST
+      | 
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/driver/spi/include/driver/spi_master.h:11,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:34:
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/hal/include/hal/spi_types.h:90: note: this is the location of the previous definition
+   90 | #define HSPI_HOST   SPI3_HOST
+      | 
+C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Pet_Tracker/tcp/main/app_main.c:56:28: warning: 'spi_camera' defined but not used [-Wunused-variable]
+   56 | static spi_device_handle_t spi_camera;
