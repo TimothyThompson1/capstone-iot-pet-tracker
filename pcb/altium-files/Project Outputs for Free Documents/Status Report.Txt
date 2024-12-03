@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PetTrackerPCB.PcbDoc]
+   Generated File[PetTrackerPCB.TXT]
+   Generated File[PetTrackerPCB.LDP]
+   Generated File[PetTrackerPCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 5:18:47 PM On 9/26/2024

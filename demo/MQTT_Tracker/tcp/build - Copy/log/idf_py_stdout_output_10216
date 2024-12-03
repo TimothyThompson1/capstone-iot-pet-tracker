@@ -1,0 +1,12 @@
+-- Component directory C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/components/arducam does not contain a CMakeLists.txt file. No component will be added
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32s3
+Using component placed at C:\Users\ththo\esp\v5.3.1\esp-idf\examples\common_components\protocol_examples_common for dependency "protocol_examples_common", specified in C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Tracker\tcp\main\idf_component.yml
+NOTICE: Updating lock file at C:\Espressif\frameworks\esp-idf-v5.2.1-2\MQTT_Tracker\tcp\dependencies.lock
+Processing 2 dependencies:
+[1/2] protocol_examples_common (*) (C:\Espressif\frameworks\esp-idf-v5.2.1-2\examples\common_components\protocol_examples_common)
+[2/2] idf (5.3.1)
+-- Project sdkconfig file C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Configuring incomplete, errors occurred!
+See also "C:/Espressif/frameworks/esp-idf-v5.2.1-2/MQTT_Tracker/tcp/build/CMakeFiles/CMakeOutput.log".

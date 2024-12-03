@@ -1,0 +1,129 @@
+Change Component Comment : Designator=U1 Old Comment=Comment New Comment=ESP32-S2-SOLO-N4R2
+Change Component Designator: OldDesignator=EC25 Connector NewDesignator=U2
+Change component parameters: Designator = "U1" ("U1"); Footprint = "MOD41_ESP32-S2-SOLO_EXP"; UniqueID = "\ACAOEYQY" ("\ACAOEYQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "RF"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin CBOOT-1
+Add Pin To Net: Unknown Pin: Pin CBOOT-2
+Add Pin To Net: Unknown Pin: Pin CHF-1
+Add Pin To Net: Unknown Pin: Pin CHF-2
+Add Pin To Net: Unknown Pin: Pin CIN-1
+Add Pin To Net: Unknown Pin: Pin CIN-2
+Add Pin To Net: Unknown Pin: Pin Cout-1
+Add Pin To Net: Unknown Pin: Pin Cout-2
+Add Pin To Net: Unknown Pin: Pin CVCC-1
+Add Pin To Net: Unknown Pin: Pin CVCC-2
+Add Pin To Net: Unknown Pin: Pin L-1
+Add Pin To Net: Unknown Pin: Pin L-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin RFBB-1
+Add Pin To Net: Unknown Pin: Pin RFBB-2
+Add Pin To Net: Unknown Pin: Pin RFBT-1
+Add Pin To Net: Unknown Pin: Pin RFBT-2
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW2-1
+Add Pin To Net: Unknown Pin: Pin SW2-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=+3V3 Pin=U1-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-8
+Added Pin To Net: NetName=MCU_TXD Pin=U1-10
+Added Pin To Net: NetName=MCU_RXD Pin=U1-11
+Added Pin To Net: NetName=USB_DM Pin=U1-13
+Added Pin To Net: NetName=USB_DP Pin=U1-14
+Added Pin To Net: NetName=MCU_RTS Pin=U1-17
+Added Pin To Net: NetName=MCU_CTS Pin=U1-18
+Added Pin To Net: NetName=NetJ1_2 Pin=U1-19
+Added Pin To Net: NetName=NetJ1_4 Pin=U1-20
+Added Pin To Net: NetName=NetJ1_3 Pin=U1-21
+Added Pin To Net: NetName=NetJ1_8 Pin=U1-22
+Added Pin To Net: NetName=NetJ1_7 Pin=U1-23
+Added Pin To Net: NetName=NetJ1_1 Pin=U1-25
+Added Pin To Net: NetName=NetR4_2 Pin=U1-27
+Added Pin To Net: NetName=WAKE# [3] Pin=U1-30
+Added Pin To Net: NetName=LED_WWAN# [3] Pin=U1-31
+Added Pin To Net: NetName=PERST# [3] Pin=U1-32
+Added Pin To Net: NetName=W_DISABLE# [3] Pin=U1-33
+Added Pin To Net: NetName=DTR [3] Pin=U1-34
+Added Pin To Net: NetName=RI [3] Pin=U1-35
+Added Pin To Net: NetName=NetJ2_3 Pin=U1-36
+Added Pin To Net: NetName=NetJ2_2 Pin=U1-37
+Added Pin To Net: NetName=NetR3_1 Pin=U1-38
+Added Pin To Net: NetName=GND Pin=U1-40
+Added Pin To Net: NetName=GND Pin=U1-41
+Added Pin To Net: NetName=GND Pin=U1-42
+Added Pin To Net: NetName=GND Pin=U1-43
+Added Pin To Net: NetName=GND Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-45
+Added Pin To Net: NetName=GND Pin=U1-46
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U1-48
+Added Pin To Net: NetName=GND Pin=U1-49
+Change Net Name : Old Net Name=NetCRF1_2 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetEC25 Connector_44 New Net Name=NetTVS1_1
+Added Pin To Net: NetName=NetC4_2 Pin=TVS1-6
+Added Pin To Net: NetName=NetC4_2 Pin=USIM1-C7
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_2 Pin=TVS1-5
+Added Pin To Net: NetName=NetC5_2 Pin=USIM1-C3
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC6_2 Pin=TVS1-4
+Added Pin To Net: NetName=NetC6_2 Pin=USIM1-C2
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-3
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR6_2 Pin=U2-10
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR8_2 Pin=U2-14
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR77_2 Pin=U2-12
+Added Net: Name=NetR77_2
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component C4 Capacitor
+Add Class Member: Failed to add class member : Component C5 Capacitor
+Add Class Member: Failed to add class member : Component C6 Capacitor
+Add Class Member: Failed to add class member : Component C7 Capacitor
+Add Class Member: Failed to add class member : Component CBOOT Capacitor
+Add Class Member: Failed to add class member : Component CHF Capacitor
+Add Class Member: Failed to add class member : Component CIN Capacitor
+Add Class Member: Failed to add class member : Component Cout Capacitor
+Add Class Member: Failed to add class member : Component CVCC Capacitor
+Add Class Member: Failed to add class member : Component L Inductor
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor
+Add Class Member: Failed to add class member : Component R3 Resistor
+Add Class Member: Failed to add class member : Component R4 Resistor
+Add Class Member: Failed to add class member : Component R5 Resistor
+Add Class Member: Failed to add class member : Component R6 Resistor
+Add Class Member: Failed to add class member : Component R8 Resistor
+Add Class Member: Failed to add class member : Component R9 Resistor
+Add Class Member: Failed to add class member : Component R77 Resistor
+Add Class Member: Failed to add class member : Component RFBB Resistor
+Add Class Member: Failed to add class member : Component RFBT Resistor
+Add Class Member: Failed to add class member : Component SW1 Push Button Normally Opened
+Add Class Member: Failed to add class member : Component SW2 Push Button Normally Opened

@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=L1 Old Footprint=FP-MLZ2012-0_85-IPC_A New Footprint=IND_SRN8040TA-6R8M
+Change Component Comment : Designator=L1 Old Comment=6.8uH New Comment=SRN8040TA-6R8M
+Change Managed Component Library Link : Designator=L1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=FD9EC58B-D17E-4F38-9706-09E49F84291E New ItemGUID= Old RevisionGUID=E7D8DDC2-75EB-49F0-9B49-63A150252090 New RevisionGUID=
+Change component parameters: Designator = "L1" ("L1"); Footprint = "FP-MLZ2012-0_85-IPC_A"; UniqueID = "\MCCFMAHZ" ("\MCCFMAHZ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SRN8040TA-6R8M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

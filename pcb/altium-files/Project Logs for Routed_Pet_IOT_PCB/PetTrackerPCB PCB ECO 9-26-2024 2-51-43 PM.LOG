@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=NetC7_1 Pin=USIM1-C1
+Removed Pin From Net: NetName=NetC6_1 Pin=USIM1-C2
+Removed Pin From Net: NetName=NetC5_1 Pin=USIM1-C3
+Removed Pin From Net: NetName=GND Pin=USIM1-C5
+Removed Pin From Net: NetName=NetC4_1 Pin=USIM1-C7
+Removed Pin From Net: NetName=GND Pin=USIM1-C8
+Removed Pin From Net: NetName=GND Pin=USIM1-C9
+Removed Pin From Net: NetName=GND Pin=USIM1-C10
+Removed Pin From Net: NetName=GND Pin=USIM1-C11
+Removed Pin From Net: NetName=GND Pin=USIM1-C12
+Removed Pin From Net: NetName=GND Pin=USIM1-C13
+Removed Pin From Net: NetName=GND Pin=USIM1-C14
+Removed Pin From Net: NetName=GND Pin=USIM1-C15
+Removed Pin From Net: NetName=GND Pin=USIM1-C16
+Removed Pin From Net: NetName=GND Pin=USIM1-C17
+Added Component: Designator=USIM1(MOLX-78800-0001_V)
+Add component (AddParameter): Name = "Connector Type"; Value = "MemorySocket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "GoldPlatedContacts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.molex.com/webdocs/datasheets/pdf/en-us/0788000001_MEMORY_CARD_SOCKET.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "06/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.molex.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Contacts"; Value = "6Contacts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "6-Pin Subscriber Identity Module Card Socket, Body 16.96 x 13.85 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "78800-0001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.molex.com/pdm_docs/sd/788000001_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Range"; Value = "micro-SIMSeries"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "ToBeAdvised"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC7_1 Pin=USIM1-C1
+Added Pin To Net: NetName=NetC6_1 Pin=USIM1-C2
+Added Pin To Net: NetName=NetC5_1 Pin=USIM1-C3
+Added Pin To Net: NetName=GND Pin=USIM1-C5
+Added Pin To Net: NetName=NetC4_1 Pin=USIM1-C7

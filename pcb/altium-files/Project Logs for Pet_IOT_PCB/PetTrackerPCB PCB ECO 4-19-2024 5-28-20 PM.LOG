@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=USIM_VDD Pin=R9-1
+Added Pin To Net: NetName=NetC7_1 Pin=R9-1

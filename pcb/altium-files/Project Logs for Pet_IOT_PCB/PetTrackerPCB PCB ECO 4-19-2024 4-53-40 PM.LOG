@@ -1,0 +1,14 @@
+Added Component: Designator=SW1(PTS645SL43SMTR92LFS_CNK)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "C&K Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(PTS645SL43SMTR92LFS_CNK)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "C&K Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_2 Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=NetR4_1 Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW2-4
+Added Member To Class: ClassName=Dataflow Member=Component SW1 PTS645SL43SMTR92LFS
+Added Member To Class: ClassName=Dataflow Member=Component SW2 PTS645SL43SMTR92LFS

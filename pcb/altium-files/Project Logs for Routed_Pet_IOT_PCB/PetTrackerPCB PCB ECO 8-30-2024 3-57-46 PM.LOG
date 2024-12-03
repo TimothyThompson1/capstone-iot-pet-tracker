@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=NetC2_2 Pin=R5-1
+Removed Pin From Net: NetName=NetLS1_1 Pin=U1-26
+Removed Member From Class: ClassName=Dataflow Member=R5
+Change Component Comment : Designator=C4 Old Comment=C0603C104J5RACTU New Comment=0.1uF
+Change Component Comment : Designator=C5 Old Comment=C0603C104J5RACTU New Comment=0.1uF
+Change Component Comment : Designator=C6 Old Comment=C0603C104J5RACTU New Comment=0.1uF
+Change Component Comment : Designator=C7 Old Comment=C0603C104J5RACTU New Comment=0.1uF
+Change Component Comment : Designator=C9 Old Comment=C0603C224K3RACTU New Comment=0.22uF
+Change Component Comment : Designator=C2 Old Comment=C0805C104M5UACTU New Comment=0.1uF
+Change Component Comment : Designator=C3 Old Comment=C0805C104M5UACTU New Comment=0.1uF
+Change Component Comment : Designator=C11 Old Comment=C0805C104M5UACTU New Comment=0.1uF
+Change Component Comment : Designator=C8 Old Comment=C0805C106K8PACTU New Comment=10uF
+Change Component Comment : Designator=C10 Old Comment=C1206C105K3RACTU New Comment=1uF
+Change Component Comment : Designator=C1 Old Comment=C3225X7R1C226M250AC New Comment=22uF
+Change Component Comment : Designator=C12 Old Comment=C3225X7R1C226M250AC New Comment=22uF
+Change Component Comment : Designator=C13 Old Comment=C3225X7R1C226M250AC New Comment=22uF
+Change Component Comment : Designator=C14 Old Comment=C3225X7R1C226M250AC New Comment=22uF
+Change Component Comment : Designator=L1 Old Comment=MLZ2012N6R8LT000 New Comment=6.8uH
+Change Component Comment : Designator=R10 Old Comment=RMCF0402FT100K New Comment=100kO
+Change Component Comment : Designator=R11 Old Comment=RMCF0402FT100K New Comment=100kO
+Change Component Comment : Designator=R1 Old Comment=RMCF0603JT10K0 New Comment=10kO
+Change Component Comment : Designator=R2 Old Comment=RMCF0603JT10K0 New Comment=10kO
+Change Component Comment : Designator=R3 Old Comment=RMCF0603JT10K0 New Comment=10kO
+Change Component Comment : Designator=R4 Old Comment=RMCF0603JT10K0 New Comment=10kO
+Change Component Comment : Designator=R6 Old Comment=RMCF0603ZT0R00 New Comment=0O
+Change Component Comment : Designator=R7 Old Comment=RMCF0603ZT0R00 New Comment=0O
+Change Component Comment : Designator=R8 Old Comment=RMCF0603ZT0R00 New Comment=0O
+Change Component Comment : Designator=R9 Old Comment=RMCF1206JT15K0 New Comment=15kO
+Change Component Comment : Designator=R12 Old Comment=RMCF1210JT3K30 New Comment=3.3kO
+Change Component Description : Designator=R12 Old Description=3.3kO ±5% 0.5W 1210 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF1210JT3K30 3.3kO ±5% 0.5W 1210 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R1 Old Description=10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0603JT10K0 10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R2 Old Description=10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0603JT10K0 10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R3 Old Description=10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0603JT10K0 10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R4 Old Description=10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0603JT10K0 10kO ±5% 0.1W 0603 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R9 Old Description=15kO ±5% 0.25W 1206 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF1206JT15K0 15kO ±5% 0.25W 1206 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R10 Old Description=100kO ±1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0402FT100K 100kO ±1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=R11 Old Description=100kO ±1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant New Description=RMCF0402FT100K 100kO ±1% 0.063W 0402 Thick Film Chip Resistor AEC-Q200 compliant
+Change Component Description : Designator=C4 Old Description=CAP CER 0.1UF 50V 5% X7R 0603 New Description=C0603C104J5RACTU CAP CER 0.1UF 50V 5% X7R 0603
+Change Component Description : Designator=C5 Old Description=CAP CER 0.1UF 50V 5% X7R 0603 New Description=C0603C104J5RACTU CAP CER 0.1UF 50V 5% X7R 0603
+Change Component Description : Designator=C6 Old Description=CAP CER 0.1UF 50V 5% X7R 0603 New Description=C0603C104J5RACTU CAP CER 0.1UF 50V 5% X7R 0603
+Change Component Description : Designator=C7 Old Description=CAP CER 0.1UF 50V 5% X7R 0603 New Description=C0603C104J5RACTU CAP CER 0.1UF 50V 5% X7R 0603
+Change Component Description : Designator=C2 Old Description=CAP CER 0.1UF 50V Z5U 0805 New Description=C0805C104M5UACTU CAP CER 0.1UF 50V Z5U 0805
+Change Component Description : Designator=C3 Old Description=CAP CER 0.1UF 50V Z5U 0805 New Description=C0805C104M5UACTU CAP CER 0.1UF 50V Z5U 0805
+Change Component Description : Designator=C11 Old Description=CAP CER 0.1UF 50V Z5U 0805 New Description=C0805C104M5UACTU CAP CER 0.1UF 50V Z5U 0805
+Change Component Description : Designator=C9 Old Description=CAP CER 0.22UF 25V 10% X7R 0603 New Description=C0603C224K3RACTU CAP CER 0.22UF 25V 10% X7R 0603
+Change Component Description : Designator=C8 Old Description=CAP CER 10UF 10V X5R 0805 New Description=C0805C106K8PACTU CAP CER 10UF 10V X5R 0805
+Change Component Description : Designator=C10 Old Description=Chip Capacitor, 1 uF, +/- 10%, 25 V, -55 to 125 degC, 1206 (3216 Metric), RoHS, Tape and Reel New Description=C1206C105K3RACTU Chip Capacitor, 1 uF, +/- 10%, 25 V, -55 to 125 degC, 1206 (3216 Metric), RoHS, Tape and Reel
+Change Component Description : Designator=C1 Old Description=Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210 New Description=C3225X7R1C226M250AC Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210
+Change Component Description : Designator=C12 Old Description=Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210 New Description=C3225X7R1C226M250AC Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210
+Change Component Description : Designator=C13 Old Description=Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210 New Description=C3225X7R1C226M250AC Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210
+Change Component Description : Designator=C14 Old Description=Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210 New Description=C3225X7R1C226M250AC Multilayer Ceramic Capacitors 22uF ±20% 16V X7R SMD 1210
+Change Component Description : Designator=R6 Old Description=RES 0 OHM JUMPER 1/10W 0603 New Description=RMCF0603ZT0R00 RES 0 OHM JUMPER 1/10W 0603
+Change Component Description : Designator=R7 Old Description=RES 0 OHM JUMPER 1/10W 0603 New Description=RMCF0603ZT0R00 RES 0 OHM JUMPER 1/10W 0603
+Change Component Description : Designator=R8 Old Description=RES 0 OHM JUMPER 1/10W 0603 New Description=RMCF0603ZT0R00 RES 0 OHM JUMPER 1/10W 0603
+Change Component Description : Designator=L1 Old Description=Shielded Multilayer Inductor 6.8uH ±20% 550mA 325mO SMD 0805 New Description=MLZ2012N6R8LT000 Shielded Multilayer Inductor 6.8uH ±20% 550mA 325mO SMD 0805
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=+3V3 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=+3V3 Pin=C14-1
+Added Pin To Net: NetName=NetC2_2 Pin=R1-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-3
+Added Pin To Net: NetName=NetLS1_1 Pin=U1-15

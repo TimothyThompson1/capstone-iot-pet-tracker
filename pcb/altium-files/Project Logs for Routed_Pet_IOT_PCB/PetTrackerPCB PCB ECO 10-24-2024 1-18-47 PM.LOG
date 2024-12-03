@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=C2 Old Footprint=FP-C0805C104M5UACTU-MFG New Footprint=FP-CL21-IPC_C
+Change Component Footprint: Designator=C3 Old Footprint=FP-C0805C104M5UACTU-MFG New Footprint=FP-CL21-IPC_C
+Change Component Footprint: Designator=C1 Old Footprint=FP-C3225-250-0_4-IPC_B New Footprint=FP-CL21-IPC_C
+Change Component Footprint: Designator=R1 Old Footprint=FP-RMCF0603-IPC_C New Footprint=FP-CRGP2512-IPC_C
+Change Component Footprint: Designator=R2 Old Footprint=FP-RMCF0603-IPC_C New Footprint=FP-CRGP2512-IPC_C
+Change Component Footprint: Designator=R3 Old Footprint=FP-RMCF0603-IPC_C New Footprint=FP-CRGP2512-IPC_C
+Change Component Footprint: Designator=R4 Old Footprint=FP-RMCF0603-IPC_C New Footprint=FP-CRGP2512-IPC_C
+Change Component Footprint: Designator=R13 Old Footprint=FP-RMCF0603-IPC_C New Footprint=FP-CRGP2512-IPC_C
+Change Component Comment : Designator=C2 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C3 Old Comment=0.1uF New Comment=100nF
+Change Component Designator: OldDesignator=C11 NewDesignator=C?
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC?_2
+Added Member To Class: ClassName=PowerSupply Member=Component C? 100nF

@@ -1,0 +1,19 @@
+Added Component: Designator=USIM1(FP-SIM8066-6-1-14-01-A-MFG)
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold, Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "117635865"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "30V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=USIM1-1
+Added Pin To Net: NetName=GND Pin=USIM1-2
+Added Pin To Net: NetName=GND Pin=USIM1-3
+Added Pin To Net: NetName=GND Pin=USIM1-4
+Added Pin To Net: NetName=NetC7_1 Pin=USIM1-C1
+Added Pin To Net: NetName=NetC6_1 Pin=USIM1-C2
+Added Pin To Net: NetName=NetC5_1 Pin=USIM1-C3
+Added Pin To Net: NetName=GND Pin=USIM1-C5
+Added Pin To Net: NetName=NetC4_1 Pin=USIM1-C7
+Added Member To Class: ClassName=EC25 Member=Component USIM1 SIM8066-6-1-14-01-A

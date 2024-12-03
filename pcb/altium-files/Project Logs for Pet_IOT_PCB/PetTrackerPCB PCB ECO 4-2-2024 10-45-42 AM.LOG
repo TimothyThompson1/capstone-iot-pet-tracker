@@ -1,0 +1,152 @@
+Change Component Comment : Designator=J1 Old Comment=Comment New Comment=TS-108-T-A
+Change component parameters: Designator = "J1" ("J1"); Footprint = "CON8_1X8_TU_HTS_SAI"; UniqueID = "\YTMFAGNA" ("\YTMFAGNA")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Samtec Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT23-6_LTF
+Add Component: Footprint Not Found MOD41_ESP32-S2-SOLO_EXP
+Add Component: Footprint Not Found CONN_PREC003SAAN-RC_SUL
+Add Component: Footprint Not Found CONN_2174803-2
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin CBOOT-1
+Add Pin To Net: Unknown Pin: Pin CBOOT-2
+Add Pin To Net: Unknown Pin: Pin CHF-1
+Add Pin To Net: Unknown Pin: Pin CHF-2
+Add Pin To Net: Unknown Pin: Pin CIN-1
+Add Pin To Net: Unknown Pin: Pin CIN-2
+Add Pin To Net: Unknown Pin: Pin Cout-1
+Add Pin To Net: Unknown Pin: Pin Cout-2
+Add Pin To Net: Unknown Pin: Pin CRF1-1
+Add Pin To Net: Unknown Pin: Pin CRF1-2
+Add Pin To Net: Unknown Pin: Pin CRF2-1
+Add Pin To Net: Unknown Pin: Pin CRF2-2
+Add Pin To Net: Unknown Pin: Pin CRF3-1
+Add Pin To Net: Unknown Pin: Pin CRF3-2
+Add Pin To Net: Unknown Pin: Pin CRF4-1
+Add Pin To Net: Unknown Pin: Pin CRF4-2
+Add Pin To Net: Unknown Pin: Pin CVCC-1
+Add Pin To Net: Unknown Pin: Pin CVCC-2
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=+3V3 Pin=J1-6
+Add Pin To Net: Unknown Pin: Pin L-1
+Add Pin To Net: Unknown Pin: Pin L-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin RDB1-1
+Add Pin To Net: Unknown Pin: Pin RDB1-2
+Add Pin To Net: Unknown Pin: Pin RDB2-1
+Add Pin To Net: Unknown Pin: Pin RDB2-2
+Add Pin To Net: Unknown Pin: Pin RDB3-1
+Add Pin To Net: Unknown Pin: Pin RDB3-2
+Add Pin To Net: Unknown Pin: Pin RDB-1
+Add Pin To Net: Unknown Pin: Pin RDB-2
+Add Pin To Net: Unknown Pin: Pin RFBB-1
+Add Pin To Net: Unknown Pin: Pin RFBB-2
+Add Pin To Net: Unknown Pin: Pin RFBT-1
+Add Pin To Net: Unknown Pin: Pin RFBT-2
+Add Pin To Net: Unknown Pin: Pin RPU1-1
+Add Pin To Net: Unknown Pin: Pin RPU1-2
+Add Pin To Net: Unknown Pin: Pin RS1-1
+Add Pin To Net: Unknown Pin: Pin RS1-2
+Add Pin To Net: Unknown Pin: Pin S2-1
+Add Pin To Net: Unknown Pin: Pin S2-2
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin TVS Array-1
+Add Pin To Net: Unknown Pin: Pin TVS Array-2
+Add Pin To Net: Unknown Pin: Pin TVS Array-3
+Add Pin To Net: Unknown Pin: Pin TVS Array-4
+Add Pin To Net: Unknown Pin: Pin TVS Array-5
+Add Pin To Net: Unknown Pin: Pin TVS Array-6
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U1-10
+Add Pin To Net: Unknown Pin: Pin U1-11
+Add Pin To Net: Unknown Pin: Pin U1-13
+Add Pin To Net: Unknown Pin: Pin U1-14
+Add Pin To Net: Unknown Pin: Pin U1-27
+Add Pin To Net: Unknown Pin: Pin U1-30
+Add Pin To Net: Unknown Pin: Pin U1-31
+Add Pin To Net: Unknown Pin: Pin U1-32
+Add Pin To Net: Unknown Pin: Pin U1-33
+Add Pin To Net: Unknown Pin: Pin U1-34
+Add Pin To Net: Unknown Pin: Pin U1-35
+Add Pin To Net: Unknown Pin: Pin U1-36
+Add Pin To Net: Unknown Pin: Pin U1-37
+Add Pin To Net: Unknown Pin: Pin U1-38
+Add Pin To Net: Unknown Pin: Pin U1-40
+Add Pin To Net: Unknown Pin: Pin U1-41
+Add Pin To Net: Unknown Pin: Pin U1-42
+Add Pin To Net: Unknown Pin: Pin U1-43
+Add Pin To Net: Unknown Pin: Pin U1-44
+Add Pin To Net: Unknown Pin: Pin U1-45
+Add Pin To Net: Unknown Pin: Pin U1-46
+Add Pin To Net: Unknown Pin: Pin U1-47
+Add Pin To Net: Unknown Pin: Pin U1-48
+Add Pin To Net: Unknown Pin: Pin U1-49
+Add Pin To Net: Unknown Pin: Pin USB Connector-1
+Add Pin To Net: Unknown Pin: Pin USB Connector-2
+Add Pin To Net: Unknown Pin: Pin USB Connector-3
+Add Pin To Net: Unknown Pin: Pin USIM Connector-C1
+Add Pin To Net: Unknown Pin: Pin USIM Connector-C2
+Add Pin To Net: Unknown Pin: Pin USIM Connector-C3
+Add Pin To Net: Unknown Pin: Pin USIM Connector-C5
+Add Pin To Net: Unknown Pin: Pin USIM Connector-C7
+Add Pin To Net: Unknown Pin: Pin USIM Connector-SW
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Net: Name=NetJ1_3
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Net: Name=NetJ1_4
+Added Pin To Net: NetName=NetJ1_7 Pin=J1-7
+Added Net: Name=NetJ1_7
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Net: Name=NetJ1_8
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component CBOOT Capacitor
+Add Class Member: Failed to add class member : Component CHF Capacitor
+Add Class Member: Failed to add class member : Component CIN Capacitor
+Add Class Member: Failed to add class member : Component Cout Capacitor
+Add Class Member: Failed to add class member : Component CRF1 Capacitor
+Add Class Member: Failed to add class member : Component CRF2 Capacitor
+Add Class Member: Failed to add class member : Component CRF3 Capacitor
+Add Class Member: Failed to add class member : Component CRF4 Capacitor
+Add Class Member: Failed to add class member : Component CVCC Capacitor
+Added Member To Class: ClassName=Dataflow Member=Component J1 TS-108-T-A
+Add Class Member: Failed to add class member : Component L Inductor
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor
+Add Class Member: Failed to add class member : Component R3 Resistor
+Add Class Member: Failed to add class member : Component R4 Resistor
+Add Class Member: Failed to add class member : Component RDB1 Resistor
+Add Class Member: Failed to add class member : Component RDB2 Resistor
+Add Class Member: Failed to add class member : Component RDB3 Resistor
+Add Class Member: Failed to add class member : Component RDB Resistor
+Add Class Member: Failed to add class member : Component RFBB Resistor
+Add Class Member: Failed to add class member : Component RFBT Resistor
+Add Class Member: Failed to add class member : Component RPU1 Resistor
+Add Class Member: Failed to add class member : Component RS1 Resistor
+Add Class Member: Failed to add class member : Component S2 Push Button Normally Opened
+Add Class Member: Failed to add class member : Component SW1 Push Button Normally Opened
+Add Class Member: Failed to add class member : Component TVS Array AQRV05-4HTG
+Add Class Member: Failed to add class member : Component U1 ESP32-S2-SOLO-N4R2
+Add Class Member: Failed to add class member : Component USB Connector PREC003SAAN-RC
+Add Class Member: Failed to add class member : Component USIM Connector 2174803-2

@@ -1,0 +1,17 @@
+CMake Error at C:/Users/ththo/esp/v5.3.1/esp-idf/tools/cmake/tool_version_check.cmake:36 (message):
+  
+
+  Tool doesn't match supported version from list ['esp-13.2.0_20240530']:
+  C:/Espressif/tools/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+
+
+  Please try to run 'idf.py fullclean' to solve it.
+
+Call Stack (most recent call first):
+  C:/Users/ththo/esp/v5.3.1/esp-idf/components/esp_common/project_include.cmake:10 (check_expected_tool_version)
+  C:/Users/ththo/esp/v5.3.1/esp-idf/tools/cmake/build.cmake:400 (include)
+  C:/Users/ththo/esp/v5.3.1/esp-idf/tools/cmake/build.cmake:632 (__build_process_project_includes)
+  C:/Users/ththo/esp/v5.3.1/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+

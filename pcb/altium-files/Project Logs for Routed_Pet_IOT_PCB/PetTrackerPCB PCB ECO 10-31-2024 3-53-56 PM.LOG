@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=+3V3 Pin=R11-1
+Change Component Footprint: Designator=R11 Old Footprint=FP-CRGP2512-IPC_C New Footprint=RES_3560_TEC
+Change Component Comment : Designator=R11 Old Comment=100kO New Comment=3560100KJT
+Change Managed Component Library Link : Designator=R11 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=E5F35CAB-988D-424B-8C47-D96882F0BC0C New ItemGUID= Old RevisionGUID=8AF48A62-5401-4997-8F4D-EFDF1C451F8D New RevisionGUID=
+Change component parameters: Designator = "R11" ("R11"); Footprint = "FP-CRGP2512-IPC_C"; UniqueID = "\KPOELRCS" ("\KPOELRCS")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=R11-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=R12-1
+Added Pin To Net: NetName=NetR11_1 Pin=U3-5
+Added Net: Name=NetR11_1

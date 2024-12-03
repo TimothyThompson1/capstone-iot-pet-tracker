@@ -1,0 +1,10 @@
+Change Description: Unknown Component : SW1
+Change Description: Unknown Component : SW2
+Change component parameters: Component "SW1" not found
+Change component parameters: Component "SW2" not found
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW1-3
+Add Pin To Net: Unknown Pin: Pin SW2-1
+Add Pin To Net: Unknown Pin: Pin SW2-4
+Add Class Member: Failed to add class member : Component SW1 Comment
+Add Class Member: Failed to add class member : Component SW2 Comment

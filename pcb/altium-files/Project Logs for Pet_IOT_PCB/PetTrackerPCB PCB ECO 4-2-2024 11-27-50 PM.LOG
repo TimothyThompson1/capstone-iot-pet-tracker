@@ -1,0 +1,163 @@
+Change Component Comment : Designator=USIM1 Old Comment=Comment New Comment=2174803-2
+Change Component Comment : Designator=TVS1 Old Comment=Comment New Comment=AQRV05-4HTG
+Change component parameters: Designator = "TVS1" ("TVS1"); Footprint = "SOT23-6_LTF"; UniqueID = "\HBMZVTCD" ("\HBMZVTCD")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "USIM1" ("USIM1"); Footprint = "CONN_2174803-2"; UniqueID = "\KDCIRDYJ" ("\KDCIRDYJ")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "2174803-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number_of_Positions"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product_Type"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2174803-2/TE%20Connectivity%20AMP%20Connectors/view-part/47676/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-2174803-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage_Rating"; Value = "10 VAC"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MOD41_ESP32-S2-SOLO_EXP
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin CBOOT-1
+Add Pin To Net: Unknown Pin: Pin CBOOT-2
+Add Pin To Net: Unknown Pin: Pin CHF-1
+Add Pin To Net: Unknown Pin: Pin CHF-2
+Add Pin To Net: Unknown Pin: Pin CIN-1
+Add Pin To Net: Unknown Pin: Pin CIN-2
+Add Pin To Net: Unknown Pin: Pin Cout-1
+Add Pin To Net: Unknown Pin: Pin Cout-2
+Add Pin To Net: Unknown Pin: Pin CRF1-1
+Add Pin To Net: Unknown Pin: Pin CRF1-2
+Add Pin To Net: Unknown Pin: Pin CRF2-1
+Add Pin To Net: Unknown Pin: Pin CRF2-2
+Add Pin To Net: Unknown Pin: Pin CRF3-1
+Add Pin To Net: Unknown Pin: Pin CRF3-2
+Add Pin To Net: Unknown Pin: Pin CRF4-1
+Add Pin To Net: Unknown Pin: Pin CRF4-2
+Add Pin To Net: Unknown Pin: Pin CVCC-1
+Add Pin To Net: Unknown Pin: Pin CVCC-2
+Add Pin To Net: Unknown Pin: Pin L-1
+Add Pin To Net: Unknown Pin: Pin L-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin RDB1-1
+Add Pin To Net: Unknown Pin: Pin RDB1-2
+Add Pin To Net: Unknown Pin: Pin RDB2-1
+Add Pin To Net: Unknown Pin: Pin RDB2-2
+Add Pin To Net: Unknown Pin: Pin RDB3-1
+Add Pin To Net: Unknown Pin: Pin RDB3-2
+Add Pin To Net: Unknown Pin: Pin RDB-1
+Add Pin To Net: Unknown Pin: Pin RDB-2
+Add Pin To Net: Unknown Pin: Pin RFBB-1
+Add Pin To Net: Unknown Pin: Pin RFBB-2
+Add Pin To Net: Unknown Pin: Pin RFBT-1
+Add Pin To Net: Unknown Pin: Pin RFBT-2
+Add Pin To Net: Unknown Pin: Pin RPU1-1
+Add Pin To Net: Unknown Pin: Pin RPU1-2
+Add Pin To Net: Unknown Pin: Pin RS1-1
+Add Pin To Net: Unknown Pin: Pin RS1-2
+Add Pin To Net: Unknown Pin: Pin S2-1
+Add Pin To Net: Unknown Pin: Pin S2-2
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Added Pin To Net: NetName=NetEC25 Connector_44 Pin=TVS1-1
+Added Pin To Net: NetName=GND Pin=TVS1-2
+Added Pin To Net: NetName=NetCRF1_2 Pin=TVS1-3
+Added Pin To Net: NetName=NetCRF4_2 Pin=TVS1-4
+Added Pin To Net: NetName=NetCRF3_2 Pin=TVS1-5
+Added Pin To Net: NetName=NetCRF2_2 Pin=TVS1-6
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U1-10
+Add Pin To Net: Unknown Pin: Pin U1-11
+Add Pin To Net: Unknown Pin: Pin U1-13
+Add Pin To Net: Unknown Pin: Pin U1-14
+Add Pin To Net: Unknown Pin: Pin U1-17
+Add Pin To Net: Unknown Pin: Pin U1-18
+Add Pin To Net: Unknown Pin: Pin U1-19
+Add Pin To Net: Unknown Pin: Pin U1-20
+Add Pin To Net: Unknown Pin: Pin U1-21
+Add Pin To Net: Unknown Pin: Pin U1-22
+Add Pin To Net: Unknown Pin: Pin U1-23
+Add Pin To Net: Unknown Pin: Pin U1-25
+Add Pin To Net: Unknown Pin: Pin U1-27
+Add Pin To Net: Unknown Pin: Pin U1-30
+Add Pin To Net: Unknown Pin: Pin U1-31
+Add Pin To Net: Unknown Pin: Pin U1-32
+Add Pin To Net: Unknown Pin: Pin U1-33
+Add Pin To Net: Unknown Pin: Pin U1-34
+Add Pin To Net: Unknown Pin: Pin U1-35
+Add Pin To Net: Unknown Pin: Pin U1-36
+Add Pin To Net: Unknown Pin: Pin U1-37
+Add Pin To Net: Unknown Pin: Pin U1-38
+Add Pin To Net: Unknown Pin: Pin U1-40
+Add Pin To Net: Unknown Pin: Pin U1-41
+Add Pin To Net: Unknown Pin: Pin U1-42
+Add Pin To Net: Unknown Pin: Pin U1-43
+Add Pin To Net: Unknown Pin: Pin U1-44
+Add Pin To Net: Unknown Pin: Pin U1-45
+Add Pin To Net: Unknown Pin: Pin U1-46
+Add Pin To Net: Unknown Pin: Pin U1-47
+Add Pin To Net: Unknown Pin: Pin U1-48
+Add Pin To Net: Unknown Pin: Pin U1-49
+Added Pin To Net: NetName=NetCRF1_2 Pin=USIM1-C1
+Added Pin To Net: NetName=NetCRF4_2 Pin=USIM1-C2
+Added Pin To Net: NetName=NetCRF3_2 Pin=USIM1-C3
+Added Pin To Net: NetName=GND Pin=USIM1-C5
+Added Pin To Net: NetName=NetCRF2_2 Pin=USIM1-C7
+Added Pin To Net: NetName=GND Pin=USIM1-C8
+Added Pin To Net: NetName=GND Pin=USIM1-C9
+Added Pin To Net: NetName=GND Pin=USIM1-C10
+Added Pin To Net: NetName=GND Pin=USIM1-C11
+Added Pin To Net: NetName=GND Pin=USIM1-C12
+Added Pin To Net: NetName=GND Pin=USIM1-C13
+Added Pin To Net: NetName=GND Pin=USIM1-C14
+Added Pin To Net: NetName=GND Pin=USIM1-C15
+Added Pin To Net: NetName=GND Pin=USIM1-C16
+Added Pin To Net: NetName=GND Pin=USIM1-C17
+Added Pin To Net: NetName=NetEC25 Connector_44 Pin=USIM1-SW
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component CBOOT Capacitor
+Add Class Member: Failed to add class member : Component CHF Capacitor
+Add Class Member: Failed to add class member : Component CIN Capacitor
+Add Class Member: Failed to add class member : Component Cout Capacitor
+Add Class Member: Failed to add class member : Component CRF1 Capacitor
+Add Class Member: Failed to add class member : Component CRF2 Capacitor
+Add Class Member: Failed to add class member : Component CRF3 Capacitor
+Add Class Member: Failed to add class member : Component CRF4 Capacitor
+Add Class Member: Failed to add class member : Component CVCC Capacitor
+Add Class Member: Failed to add class member : Component L Inductor
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor
+Add Class Member: Failed to add class member : Component R3 Resistor
+Add Class Member: Failed to add class member : Component R4 Resistor
+Add Class Member: Failed to add class member : Component RDB1 Resistor
+Add Class Member: Failed to add class member : Component RDB2 Resistor
+Add Class Member: Failed to add class member : Component RDB3 Resistor
+Add Class Member: Failed to add class member : Component RDB Resistor
+Add Class Member: Failed to add class member : Component RFBB Resistor
+Add Class Member: Failed to add class member : Component RFBT Resistor
+Add Class Member: Failed to add class member : Component RPU1 Resistor
+Add Class Member: Failed to add class member : Component RS1 Resistor
+Add Class Member: Failed to add class member : Component S2 Push Button Normally Opened
+Add Class Member: Failed to add class member : Component SW1 Push Button Normally Opened
+Added Member To Class: ClassName=EC25 Member=Component TVS1 AQRV05-4HTG
+Add Class Member: Failed to add class member : Component U1 ESP32-S2-SOLO-N4R2
+Added Member To Class: ClassName=EC25 Member=Component USIM1 2174803-2

@@ -1,0 +1,128 @@
+Add Component: Footprint Not Found CON8_1X8_TU_HTS_SAI
+Added Component: Designator=EC25 Connector(TECO-2041119-1_3_V)
+Add component (AddParameter): Name = "Case\Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contacts"; Value = "52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041119%7FD%7Fpdf%7FEnglish%7FENG_CD_2041119_D.pdf%7F2041119-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "06/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ELV"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Colour"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polymer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "29.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.te.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "RightAngle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "mSATA & PCI Express Mini Card Connector, Pitch 0.4 mm, 52 Position, Height 4 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "2041119-1_3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Poles"; Value = "52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "9.02mm"; VariantName = "[No Variations]"
+Added Component: Designator=(FP-DDA0008J-IPC_A)
+Add Component: Footprint Not Found SOT23-6_LTF
+Add Component: Footprint Not Found MOD41_ESP32-S2-SOLO_EXP
+Add Component: Footprint Not Found CONN_PREC003SAAN-RC_SUL
+Add Component: Footprint Not Found CONN_2174803-2
+Added Pin To Net: NetName=+3V3 Pin=EC25 Connector-2
+Added Pin To Net: NetName=+3V3 Pin=EC25 Connector-39
+Added Pin To Net: NetName=+3V3 Pin=EC25 Connector-41
+Added Pin To Net: NetName=+3V3 Pin=EC25 Connector-52
+Added Net: Name=+3V3
+Added Net: Name=DTR [3]
+Added Pin To Net: NetName=GND Pin=-1
+Added Pin To Net: NetName=GND Pin=-9
+Added Pin To Net: NetName=GND Pin=EC25 Connector-4
+Added Pin To Net: NetName=GND Pin=EC25 Connector-9
+Added Pin To Net: NetName=GND Pin=EC25 Connector-15
+Added Pin To Net: NetName=GND Pin=EC25 Connector-18
+Added Pin To Net: NetName=GND Pin=EC25 Connector-21
+Added Pin To Net: NetName=GND Pin=EC25 Connector-26
+Added Pin To Net: NetName=GND Pin=EC25 Connector-27
+Added Pin To Net: NetName=GND Pin=EC25 Connector-29
+Added Pin To Net: NetName=GND Pin=EC25 Connector-34
+Added Pin To Net: NetName=GND Pin=EC25 Connector-35
+Added Pin To Net: NetName=GND Pin=EC25 Connector-37
+Added Pin To Net: NetName=GND Pin=EC25 Connector-40
+Added Pin To Net: NetName=GND Pin=EC25 Connector-43
+Added Pin To Net: NetName=GND Pin=EC25 Connector-50
+Added Net: Name=GND
+Added Pin To Net: NetName=GPIO 37 [2] Pin=EC25 Connector-1
+Added Net: Name=GPIO 37 [2]
+Added Pin To Net: NetName=GPIO38 [2] Pin=EC25 Connector-42
+Added Net: Name=GPIO38 [2]
+Added Pin To Net: NetName=GPIO39 [2] Pin=EC25 Connector-22
+Added Net: Name=GPIO39 [2]
+Added Pin To Net: NetName=GPIO40 [2] Pin=EC25 Connector-20
+Added Net: Name=GPIO40 [2]
+Added Pin To Net: NetName=GPIO41 [2] Pin=EC25 Connector-31
+Added Net: Name=GPIO41 [2]
+Added Pin To Net: NetName=GPIO42 [2] Pin=EC25 Connector-17
+Added Net: Name=GPIO42 [2]
+Added Net: Name=LED_WWAN# [3]
+Added Pin To Net: NetName=Net_4 Pin=-4
+Added Net: Name=Net_4
+Added Pin To Net: NetName=Net_5 Pin=-5
+Added Net: Name=Net_5
+Added Pin To Net: NetName=Net_6 Pin=-6
+Added Net: Name=Net_6
+Added Pin To Net: NetName=Net_7 Pin=-7
+Added Net: Name=Net_7
+Added Pin To Net: NetName=Net_8 Pin=-8
+Added Net: Name=Net_8
+Added Net: Name=NetC2_1
+Added Net: Name=NetCamera Interface_1
+Added Net: Name=NetCamera Interface_2
+Added Net: Name=NetCamera Interface_3
+Added Net: Name=NetCamera Interface_4
+Added Net: Name=NetCamera Interface_7
+Added Net: Name=NetCamera Interface_8
+Added Pin To Net: NetName=NetCRF1_2 Pin=EC25 Connector-8
+Added Net: Name=NetCRF1_2
+Added Net: Name=NetCRF2_2
+Added Net: Name=NetCRF3_2
+Added Net: Name=NetCRF4_2
+Added Pin To Net: NetName=NetEC25 Connector_10 Pin=EC25 Connector-10
+Added Net: Name=NetEC25 Connector_10
+Added Pin To Net: NetName=NetEC25 Connector_12 Pin=EC25 Connector-12
+Added Net: Name=NetEC25 Connector_12
+Added Pin To Net: NetName=NetEC25 Connector_14 Pin=EC25 Connector-14
+Added Net: Name=NetEC25 Connector_14
+Added Pin To Net: NetName=NetEC25 Connector_44 Pin=EC25 Connector-44
+Added Net: Name=NetEC25 Connector_44
+Added Net: Name=NetR2_2
+Added Net: Name=NetR3_1
+Added Net: Name=NetR4_2
+Added Net: Name=NetRDB_2
+Added Net: Name=NetU1_36
+Added Net: Name=NetU1_37
+Added Net: Name=PERST# [3]
+Added Net: Name=RI [3]
+Added Pin To Net: NetName=U1CTS [2] Pin=EC25 Connector-23
+Added Net: Name=U1CTS [2]
+Added Pin To Net: NetName=U1RTS [2] Pin=EC25 Connector-25
+Added Net: Name=U1RTS [2]
+Added Pin To Net: NetName=U1RXD [2] Pin=EC25 Connector-13
+Added Net: Name=U1RXD [2]
+Added Pin To Net: NetName=U1TXD [2] Pin=EC25 Connector-11
+Added Net: Name=U1TXD [2]
+Added Net: Name=UART_CTS [3]
+Added Net: Name=UART_RTS [3]
+Added Net: Name=UART_RX [3]
+Added Net: Name=UART_TX [3]
+Added Net: Name=USIM_VDD
+Added Pin To Net: NetName=Vin Pin=-2
+Added Pin To Net: NetName=Vin Pin=-3
+Added Net: Name=Vin
+Added Net: Name=Vout, 3V3
+Added Net: Name=W_DISABLE# [3]
+Added Net: Name=WAKE# [3]
+Added Class: Name=Dataflow
+Added Class: Name=EC25
+Added Class: Name=PowerSupply
